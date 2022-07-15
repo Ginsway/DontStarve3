@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:pumpkin"
     },
     {
-      "tag": "forge/dt_knife"
+      "item": "dontstarve3:iron_knife"
     }
   ],
   "result": {
-    "item": "dontstarve3:a_leaves",
+    "item": "dontstarve3:section_pumpkin",
     "count": 4
   }
 }

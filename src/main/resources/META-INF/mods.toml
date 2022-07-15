@@ -4,14 +4,14 @@ license="MIT License"
 
 [[mods]]
 modId="dontstarve3"
-version="0.1.1"
+version="0.2.0"
 displayName="DontStarve3"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
-authors="ZNM"
+authors="Ginsway"
 description='''
-emm...
+More and more accessible food
 '''
 
 [[dependencies.dontstarve3]]

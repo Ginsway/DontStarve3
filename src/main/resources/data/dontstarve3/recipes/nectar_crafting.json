@@ -5,7 +5,7 @@
       "tag": "minecraft:small_flowers"
     },
     {
-      "item": "dontstarve3:iron_knife"
+      "tag": "forge/dt_knife"
     }
   ],
   "result": {
