@@ -10,12 +10,13 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 
+import net.mcreator.dontstarve.procedures.HotProcedure;
 import net.mcreator.dontstarve.init.Dontstarve3ModTabs;
 
 public class HotMilkBucketItem extends Item {
 	public HotMilkBucketItem() {
 		super(new Item.Properties().tab(Dontstarve3ModTabs.TAB_DONT_STARVE_3).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(4f)
+				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(1f)
 
 						.build()));
 	}
@@ -29,6 +30,11 @@ public class HotMilkBucketItem extends Item {
 	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
 		ItemStack retval = new ItemStack(Items.BUCKET);
 		super.finishUsingItem(itemstack, world, entity);
+		double x = entity.getX();
+		double y = entity.getY();
+		double z = entity.getZ();
+
+		HotProcedure.execute(entity);
 		if (itemstack.isEmpty()) {
 			return retval;
 		} else {

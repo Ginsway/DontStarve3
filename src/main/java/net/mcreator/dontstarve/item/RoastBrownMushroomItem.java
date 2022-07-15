@@ -11,7 +11,7 @@ import net.mcreator.dontstarve.init.Dontstarve3ModTabs;
 public class RoastBrownMushroomItem extends Item {
 	public RoastBrownMushroomItem() {
 		super(new Item.Properties().tab(Dontstarve3ModTabs.TAB_DONT_STARVE_3).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(2).saturationMod(1f)
+				.food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.5f)
 
 						.build()));
 	}

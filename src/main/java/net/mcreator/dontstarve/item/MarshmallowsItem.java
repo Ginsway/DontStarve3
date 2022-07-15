@@ -11,7 +11,7 @@ import net.mcreator.dontstarve.init.Dontstarve3ModTabs;
 public class MarshmallowsItem extends Item {
 	public MarshmallowsItem() {
 		super(new Item.Properties().tab(Dontstarve3ModTabs.TAB_DONT_STARVE_3).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(6).saturationMod(4f)
+				.food((new FoodProperties.Builder()).nutrition(6).saturationMod(0.6f)
 
 						.build()));
 	}

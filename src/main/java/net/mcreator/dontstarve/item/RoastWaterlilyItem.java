@@ -11,7 +11,7 @@ import net.mcreator.dontstarve.init.Dontstarve3ModTabs;
 public class RoastWaterlilyItem extends Item {
 	public RoastWaterlilyItem() {
 		super(new Item.Properties().tab(Dontstarve3ModTabs.TAB_DONT_STARVE_3).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(2).saturationMod(2f)
+				.food((new FoodProperties.Builder()).nutrition(2).saturationMod(1f)
 
 						.build()));
 	}

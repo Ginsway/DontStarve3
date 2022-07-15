@@ -8,10 +8,10 @@ import net.minecraft.world.food.FoodProperties;
 
 import net.mcreator.dontstarve.init.Dontstarve3ModTabs;
 
-public class CheeseItem extends Item {
-	public CheeseItem() {
+public class CactusMeatItem extends Item {
+	public CactusMeatItem() {
 		super(new Item.Properties().tab(Dontstarve3ModTabs.TAB_DONT_STARVE_3).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(1).saturationMod(1f)
+				.food((new FoodProperties.Builder()).nutrition(6).saturationMod(0.8f)
 
 						.build()));
 	}
