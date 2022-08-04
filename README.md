@@ -24,3 +24,5 @@ These foods can be obtained with some common items / cubes. There is no need to 
 
 这是此系列的第三个重置，目前正在测试中。         
 This is the third reset in this series, which has been basically completed.
+
+[Link](https://modrinth.com/mod/dt3)
