@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.35,
+  "cookingtime": 150,
+  "ingredient": {
+    "item": "minecraft:carrot"
+  },
+  "result": "dontstarve3:roast_carrot"
+}

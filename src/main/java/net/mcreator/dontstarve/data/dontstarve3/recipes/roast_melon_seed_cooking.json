@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "experience": 0.3,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:melon_seeds"
+  },
+  "result": "dontstarve3:roast_melon_seed"
+}

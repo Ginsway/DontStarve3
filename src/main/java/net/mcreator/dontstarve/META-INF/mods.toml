@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT License"
+
+[[mods]]
+modId="dontstarve3"
+version="0.3"
+displayName="DontStarve3"
+credits="Created using mod maker MCreator - https://mcreator.net/about/; Artist: xiao_le_  - https://www.mcmod.cn/author/27343.html           "
+displayURL="https://ginsway.github.io/"
+logoFile="logo.png"
+authors="Ginsway"
+description='''
+More and more accessible food.
+'''
+
+[[dependencies.dontstarve3]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
