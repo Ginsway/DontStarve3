@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "dontstarve3:items/netherite_ingot"
+    "layer0": "dontstarve3:items/netherite_ingot_knife"
   }
 }
