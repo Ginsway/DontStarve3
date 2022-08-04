@@ -28,6 +28,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.dontstarve.init.Dontstarve3ModTabs;
 import net.mcreator.dontstarve.init.Dontstarve3ModItems;
+import net.mcreator.dontstarve.init.Dontstarve3ModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -45,7 +46,7 @@ public class Dontstarve3Mod {
 	public Dontstarve3Mod() {
 		Dontstarve3ModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		Dontstarve3ModBlocks.REGISTRY.register(bus);
 		Dontstarve3ModItems.REGISTRY.register(bus);
 
 	}

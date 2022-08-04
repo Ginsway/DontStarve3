@@ -8,7 +8,10 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.dontstarve.item.SoakSpiderEyeItem;
 import net.mcreator.dontstarve.item.SoakRottenFleshItem;
@@ -52,6 +55,7 @@ import net.mcreator.dontstarve.Dontstarve3Mod;
 
 public class Dontstarve3ModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, Dontstarve3Mod.MODID);
+	public static final RegistryObject<Item> CHEESE_BLOCK = block(Dontstarve3ModBlocks.CHEESE_BLOCK, Dontstarve3ModTabs.TAB_DONT_STARVE_3);
 	public static final RegistryObject<Item> A_LEAVES = REGISTRY.register("a_leaves", () -> new ALeavesItem());
 	public static final RegistryObject<Item> NECTAR = REGISTRY.register("nectar", () -> new NectarItem());
 	public static final RegistryObject<Item> SECTION_PUMPKIN = REGISTRY.register("section_pumpkin", () -> new SectionPumpkinItem());
@@ -90,4 +94,8 @@ public class Dontstarve3ModItems {
 	public static final RegistryObject<Item> GOLD_KNIFE = REGISTRY.register("gold_knife", () -> new GoldKnifeItem());
 	public static final RegistryObject<Item> DIAMOND_KNIFE = REGISTRY.register("diamond_knife", () -> new DiamondKnifeItem());
 	public static final RegistryObject<Item> NETHERITE_INGOT_KNIFE = REGISTRY.register("netherite_ingot_knife", () -> new NetheriteIngotKnifeItem());
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	}
 }
