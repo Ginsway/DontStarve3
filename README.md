@@ -23,7 +23,6 @@ These foods can be obtained with some common items / cubes. There is no need to 
      If you are a survival expert, you can also use it as a food mod to improve your diet. It is more difficult than the general food module, and it is extremely easy to obtain food.
 
 这是此系列的第三个重置，目前正在测试中。         
-This is the third reset in this series, which has been basically completed.
+This is the third reset in this series, which has been basically completed.         
 
-[Modrinth Link](https://modrinth.com/mod/dt3)                    
 [MCMOD Link](https://www.mcmod.cn/class/6742.html)
