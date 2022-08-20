@@ -1,4 +1,5 @@
 # DontStarve3
+![GitHub](https://img.shields.io/github/license/Ginsway/DontStarve3)
 ![Modrinth](https://img.shields.io/modrinth/dt/BMyL3q4o)       
 作者制作灵感来自于一名新手，当他和这位新手一起玩极限生存。因为对方不杀生，所以不能靠击杀动物的方式获取食物。
 The author was inspired by a novice when he played extreme survival with him. Because the other side doesn't kill animals, they can't get food by killing animals.
