@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "experience": 0.35,
-  "cookingtime": 150,
-  "ingredient": {
-    "item": "dontstarve3:cactus_meat"
-  },
-  "result": "dontstarve3:roast_cactus_meat"
-}

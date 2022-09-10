@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "experience": 0.3,
-  "cookingtime": 100,
-  "ingredient": {
-    "item": "minecraft:pumpkin_seeds"
-  },
-  "result": "dontstarve3:roast_pumpkin_seed"
-}

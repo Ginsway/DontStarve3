@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "experience": 0.35,
-  "cookingtime": 150,
-  "ingredient": {
-    "item": "minecraft:sugar_cane"
-  },
-  "result": "dontstarve3:roast_reeds"
-}
