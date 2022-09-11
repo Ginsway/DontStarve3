@@ -1,6 +1,6 @@
 package com.ginsway.dontstarve.mixin;
 
-import net.fabricmc.example.ExampleMod;
+import com.ginsway.dontstarve.DontStarve3;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class DontStarve3Mixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		ExampleMod.LOGGER.info("This line is printed by an example mod mixin!");
+		DontStarve3.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }
