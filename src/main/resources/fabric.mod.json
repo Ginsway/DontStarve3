@@ -6,14 +6,14 @@
   "name": "DontStarve3",
   "description": "More accessible food",
   "authors": [
-    "Me!"
+    "Ginsway"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "GPLv3",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "dontstarve3.mixins.json"
   ],
 
   "depends": {
