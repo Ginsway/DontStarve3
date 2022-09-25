@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "DontStarve3Mixin"
+    "mixin.DontStarve3Mixin"
   ],
   "injectors": {
     "defaultRequire": 1
