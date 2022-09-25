@@ -3,6 +3,12 @@ pluginManagement {
         maven {
             name = 'Fabric'
             url = 'https://maven.fabricmc.net/'
+            allowInsecureProtocol = true
+        }
+        maven {
+            name = 'Hanbing\'s proxy maven'
+            url = 'https://repository.hanbings.io/proxy/'
+            allowInsecureProtocol = true
         }
         mavenCentral()
         gradlePluginPortal()
