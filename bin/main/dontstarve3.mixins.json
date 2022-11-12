@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.ginsway.dontstarve",
+  "package": "com.ginsway.dontstarve.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
-    "mixin.DontStarve3Mixin"
+    "DontStarve3Mixin"
   ],
   "injectors": {
     "defaultRequire": 1

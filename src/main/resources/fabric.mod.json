@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "DontStarve3",
-  "description": "More accessible food",
+  "description": "More accessible food.",
   "authors": [
     "Ginsway"
   ],
@@ -13,7 +13,7 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "GPLv3",
+  "license": "MTL-2.0",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
