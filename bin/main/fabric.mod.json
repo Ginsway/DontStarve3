@@ -6,14 +6,15 @@
   "name": "DontStarve3",
   "description": "More accessible food.",
   "authors": [
-    "Ginsway"
+    "Ginsway",
+    "xiaoleqwq"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/dt3",
+    "sources": "https://github.com/Ginsway/DontStarve3"
   },
 
-  "license": "MTL-2.0",
+  "license": "MPL-2.0",
   "icon": "assets/dontstarve/icon.png",
 
   "environment": "*",
