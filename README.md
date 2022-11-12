@@ -1,6 +1,9 @@
 # DontStarve3
 ![GitHub](https://img.shields.io/github/license/Ginsway/DontStarve3)
-![Modrinth](https://img.shields.io/modrinth/dt/BMyL3q4o)       
+![Modrinth](https://img.shields.io/modrinth/dt/BMyL3q4o)
+![CurseForge](https://cf.way2muchnoise.eu/full_688761_downloads.svg)
+![CurseForge](https://cf.way2muchnoise.eu/versions/688761.svg)
+
 
 这些食物能用一些常见的物品/方块获得，不需要再担心饿死的问题!        
 These foods can be obtained with some common items / blocks. There is no need to worry about starvation!
