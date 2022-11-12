@@ -14,7 +14,7 @@
   },
 
   "license": "MTL-2.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/dontstarve/icon.png",
 
   "environment": "*",
   "entrypoints": {
