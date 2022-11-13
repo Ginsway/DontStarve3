@@ -6,7 +6,6 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import org.slf4j.Logger;
@@ -26,7 +25,7 @@ public class DontStarve3 implements ModInitializer {
 	// 奶酪锭
 	public static final Item CHEESE =
 			Registry.register(Registry.ITEM, new Identifier("dontstarve3", "cheese"),
-					new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+					new Item(new FabricItemSettings().group(DontStarve3.DONTSTARVE3)));
 	// 物品组
 	public static final ItemGroup DONTSTARVE3 = FabricItemGroupBuilder.create(
 					new Identifier("dontstarve3", "item_group"))
