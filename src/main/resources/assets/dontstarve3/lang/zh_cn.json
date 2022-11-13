@@ -1,5 +1,11 @@
 {
   "item.dontstarve3.cheese": "芝士",
 
+  "item.dontstarve3.copper_knife": "铜制小刀",
+  "item.dontstarve3.gold_knife": "金制小刀",
+  "item.dontstarve3.iron_knife": "铁制小刀",
+  "item.dontstarve3.diamond_knife": "钻石小刀",
+  "item.dontstarve3.netherite_knife": "下界合金小刀",
+
   "itemGroup.dontstarve3.item_group": "不要饿死3"
 }

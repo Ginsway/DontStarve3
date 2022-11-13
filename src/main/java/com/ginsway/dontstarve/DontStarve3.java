@@ -26,12 +26,41 @@ public class DontStarve3 implements ModInitializer {
 	public static final Item CHEESE =
 			Registry.register(Registry.ITEM, new Identifier("dontstarve3", "cheese"),
 					new Item(new FabricItemSettings().group(DontStarve3.DONTSTARVE3)));
+
+	//小刀
+	public static final Item COPPER_KNIFE =
+			Registry.register(Registry.ITEM, new Identifier("dontstarve3", "copper_knife"),
+					new Item(new FabricItemSettings().group(DontStarve3.DONTSTARVE3)));
+
+	public static final Item GOLD_KNIFE =
+			Registry.register(Registry.ITEM, new Identifier("dontstarve3", "gold_knife"),
+					new Item(new FabricItemSettings().group(DontStarve3.DONTSTARVE3)));
+
+	public static final Item IRON_KNIFE =
+			Registry.register(Registry.ITEM, new Identifier("dontstarve3", "iron_knife"),
+					new Item(new FabricItemSettings().group(DontStarve3.DONTSTARVE3)));
+
+	public static final Item DIAMOND_KNIFE =
+			Registry.register(Registry.ITEM, new Identifier("dontstarve3", "diamond_knife"),
+					new Item(new FabricItemSettings().group(DontStarve3.DONTSTARVE3)));
+
+	public static final Item NETHERITE_KNIFE =
+			Registry.register(Registry.ITEM, new Identifier("dontstarve3", "netherite_knife"),
+					new Item(new FabricItemSettings().group(DontStarve3.DONTSTARVE3)));
+
+
+
 	// 物品组
 	public static final ItemGroup DONTSTARVE3 = FabricItemGroupBuilder.create(
 					new Identifier("dontstarve3", "item_group"))
 			.icon(() -> new ItemStack(CHEESE))//图标
 			.appendItems(stacks -> {//在此处添加物品组中的物品
 				stacks.add(new ItemStack(CHEESE));
+				stacks.add(new ItemStack(COPPER_KNIFE));
+				stacks.add(new ItemStack(GOLD_KNIFE));
+				stacks.add(new ItemStack(IRON_KNIFE));
+				stacks.add(new ItemStack(DIAMOND_KNIFE));
+				stacks.add(new ItemStack(NETHERITE_KNIFE));
 			})
 			.build();
 	@Override
