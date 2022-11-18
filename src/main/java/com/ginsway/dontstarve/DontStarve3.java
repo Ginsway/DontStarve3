@@ -3,9 +3,7 @@ package com.ginsway.dontstarve;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import org.slf4j.Logger;
@@ -25,7 +23,8 @@ public class DontStarve3 implements ModInitializer {
 	// 奶酪锭
 	public static final Item CHEESE =
 			Registry.register(Registry.ITEM, new Identifier("dontstarve3", "cheese"),
-					new Item(new FabricItemSettings().group(DontStarve3.DONTSTARVE3)));
+					new Item(new FabricItemSettings().group(DontStarve3.DONTSTARVE3).food((new FoodComponent.Builder())
+							.hunger(4).saturationModifier(1.0F).build())));//食物属性 hunger 饱食度 saturationModifier 饱和度 build 构建（末尾加）
 
 	//小刀
 	public static final Item COPPER_KNIFE =

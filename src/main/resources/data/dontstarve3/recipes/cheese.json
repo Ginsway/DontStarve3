@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":  [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "tag": "dontstarve3:knives"
+    }
+  ],
+
+  "result": {
+    "item": "dontstarve3.cheese",
+    "count": 2
+  }
+}
