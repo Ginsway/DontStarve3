@@ -26,7 +26,7 @@ public class DontStarve3 implements ModInitializer {
 					new Item(new FabricItemSettings().group(DontStarve3.DONTSTARVE3).food((new FoodComponent.Builder())
 							.hunger(4).saturationModifier(1.0F).build())));//食物属性 hunger 饱食度 saturationModifier 饱和度 build 构建（末尾加）
 
-	//小刀
+	//小刀*5
 	public static final Item COPPER_KNIFE =
 			Registry.register(Registry.ITEM, new Identifier("dontstarve3", "copper_knife"),
 					new Item(new FabricItemSettings().group(DontStarve3.DONTSTARVE3)));

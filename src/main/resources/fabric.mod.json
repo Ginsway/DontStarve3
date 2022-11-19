@@ -9,9 +9,13 @@
     "Ginsway",
     "xiaoleqwq"
   ],
+  "contributors": [
+    "JiuXi1234"
+  ],
   "contact": {
     "homepage": "https://modrinth.com/mod/dt3",
-    "sources": "https://github.com/Ginsway/DontStarve3"
+    "sources": "https://github.com/Ginsway/DontStarve3",
+    "issues": "https://github.com/Ginsway/DontStarve3/issues"
   },
 
   "license": "MPL-2.0",
