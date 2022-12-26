@@ -1,12 +1,8 @@
 package com.ginsway.dontstarve;
 
+import com.ginsway.dontstarve.init.ItemGroupInit;
 import com.ginsway.dontstarve.init.ItemInit;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.*;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,7 +14,7 @@ public class DontStarve3 implements ModInitializer {
 	//烤浆果
 
 	// 物品组
-	public static final ItemGroup DONTSTARVE3 = FabricItemGroupBuilder.create(
+	/*public static final ItemGroup DONTSTARVE3 = FabricItemGroupBuilder.create(
 					new Identifier("dontstarve3", "item_group"))
 			.icon(() -> new ItemStack(ItemInit.CHEESE))//图标
 			.appendItems(stacks -> {//在此处添加物品组中的物品
@@ -38,13 +34,16 @@ public class DontStarve3 implements ModInitializer {
 				stacks.add(new ItemStack(ItemInit.ROAST_MELON_SEEDS));
 				stacks.add(new ItemStack(ItemInit.ROAST_PUMPKIN_SEEDS));
 			})
-			.build();
+			.build();*/
+
+
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ItemInit.init();
+		ItemGroupInit.init();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
