@@ -26,6 +26,9 @@
   "entrypoints": {
     "main": [
       "com.ginsway.dontstarve.DontStarve3"
+    ],
+    "fabric-datagen": [
+      "com.ginsway.dontstarve.DataGeneration"
     ]
   },
   "mixins": [
