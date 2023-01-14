@@ -2,8 +2,8 @@
   "replace": false,
   "values": [
     "dontstarve3:copper_knife",
-    "dontstarve3:gold_knife",
     "dontstarve3:iron_knife",
+    "dontstarve3:gold_knife",
     "dontstarve3:diamond_knife",
     "dontstarve3:netherite_knife"
   ]

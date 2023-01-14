@@ -47,6 +47,30 @@ public class ItemInit {
     public static final Item ROAST_PUMPKIN_SEEDS =
             new Item(new FabricItemSettings().food((new FoodComponent.Builder())
                     .hunger(1).saturationModifier(3.0F).build()));
+    public static final Item SLIME_FUDGE =
+            new Item(new FabricItemSettings().food((new FoodComponent.Builder())
+                    .hunger(1).saturationModifier(3.0F).build()));
+    public static final Item MARSHMALLOWS =
+            new Item(new FabricItemSettings().food((new FoodComponent.Builder())
+                    .hunger(1).saturationModifier(3.0F).build()));
+    public static final Item POPSICLE =
+            new Item(new FabricItemSettings().food((new FoodComponent.Builder())
+                    .hunger(1).saturationModifier(3.0F).build()));
+    public static final Item ICE_CREAM =
+            new Item(new FabricItemSettings().food((new FoodComponent.Builder())
+                    .hunger(1).saturationModifier(3.0F).build()));
+    public static final Item ROAST_GLOW_BERRIES =
+            new Item(new FabricItemSettings().food((new FoodComponent.Builder())
+                    .hunger(1).saturationModifier(3.0F).build()));
+    public static final Item CHOCOLATE =
+            new Item(new FabricItemSettings().food((new FoodComponent.Builder())
+                    .hunger(1).saturationModifier(3.0F).build()));
+    public static final Item ROAST_BERRIES =
+            new Item(new FabricItemSettings().food((new FoodComponent.Builder())
+                    .hunger(1).saturationModifier(3.0F).build()));
+    public static final Item CHEESE_STICK =
+            new Item(new FabricItemSettings().food((new FoodComponent.Builder())
+                    .hunger(1).saturationModifier(3.0F).build()));
 
 
     public static void init() {
@@ -66,6 +90,14 @@ public class ItemInit {
         Registry.register(Registry.ITEM, new Identifier("dontstarve3", "roast_wheat_seeds"), ROAST_WHEAT_SEEDS);
         Registry.register(Registry.ITEM, new Identifier("dontstarve3", "roast_melon_seeds"), ROAST_MELON_SEEDS);
         Registry.register(Registry.ITEM, new Identifier("dontstarve3", "roast_pumpkin_seeds"), ROAST_PUMPKIN_SEEDS);
+        Registry.register(Registry.ITEM, new Identifier("dontstarve3", "slime_fudge"), SLIME_FUDGE);
+        Registry.register(Registry.ITEM, new Identifier("dontstarve3", "marshmallows"), MARSHMALLOWS);
+        Registry.register(Registry.ITEM, new Identifier("dontstarve3", "popsicle"), POPSICLE);
+        Registry.register(Registry.ITEM, new Identifier("dontstarve3", "ice_cream"), ICE_CREAM);
+        Registry.register(Registry.ITEM, new Identifier("dontstarve3", "chocolate"), CHOCOLATE);
+        Registry.register(Registry.ITEM, new Identifier("dontstarve3", "roast_berries"), ROAST_BERRIES);
+        Registry.register(Registry.ITEM, new Identifier("dontstarve3", "cheese_stick"), CHEESE_STICK);
+        Registry.register(Registry.ITEM, new Identifier("dontstarve3", "roast_glow_berries"), ROAST_GLOW_BERRIES);
 
 
     }
