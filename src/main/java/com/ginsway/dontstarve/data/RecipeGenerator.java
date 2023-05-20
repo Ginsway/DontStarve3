@@ -1,6 +1,7 @@
 package com.ginsway.dontstarve.data;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
@@ -12,12 +13,12 @@ import static net.minecraft.item.Items.*;
 
 public class RecipeGenerator extends FabricRecipeProvider {
 
-    public RecipeGenerator(FabricDataGenerator dataGenerator) {
+    public RecipeGenerator(FabricDataOutput dataGenerator) {
         super(dataGenerator);
     }
 
     @Override
-    protected void generateRecipes(Consumer<RecipeJsonProvider> exporter) {
+    public void generate(Consumer<RecipeJsonProvider> exporter) {
         //ShapedRecipeJsonBuilder.create(COPPER_KNIFE).input(COPPER_INGOT,AIR)
     }
 }

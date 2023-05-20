@@ -1,6 +1,7 @@
 package com.ginsway.dontstarve.data;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
@@ -9,7 +10,7 @@ import net.minecraft.data.client.Models;
 import static com.ginsway.dontstarve.init.ItemInit.*;
 
 public class ModelGenerator extends FabricModelProvider {
-    public ModelGenerator(FabricDataGenerator generator) {
+    public ModelGenerator(FabricDataOutput generator) {
         super(generator);
     }
 
@@ -20,7 +21,7 @@ public class ModelGenerator extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(CUSTOM_ITEM, Models.GENERATED);
+//        itemModelGenerator.register(CUSTOM_ITEM, Models.GENERATED);
         itemModelGenerator.register(CHEESE, Models.GENERATED);
         itemModelGenerator.register(COPPER_KNIFE, Models.GENERATED);
         itemModelGenerator.register(GOLD_KNIFE, Models.GENERATED);
