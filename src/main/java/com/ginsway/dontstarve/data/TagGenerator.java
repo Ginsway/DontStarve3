@@ -24,12 +24,12 @@ public class TagGenerator extends FabricTagProvider<Item> {
      * <p>Common implementations of this class are provided.
      *
      * @param output           the {@link FabricDataOutput} instance
-     * @param registryKey
      * @param registriesFuture the backing registry for the tag type
      */
     public TagGenerator(FabricDataOutput output, RegistryKey<? extends Registry<Item>> registryKey, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registryKey, registriesFuture);
     }
+
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
