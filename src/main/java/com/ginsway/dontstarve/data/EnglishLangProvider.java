@@ -15,6 +15,30 @@ public class EnglishLangProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
         translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CHEESE, "Cheese");
+        /*translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");
+        translationBuilder.add(CUSTOM_ITEM, "Custom Item");*/
+
 
         try {
             Path existingFilePath = dataGenerator.getModContainer().findPath("assets/dontstarve3/lang/en_us.json").get();
