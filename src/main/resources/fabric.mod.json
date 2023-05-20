@@ -3,15 +3,16 @@
   "id": "dontstarve3",
   "version": "${version}",
 
-  "name": "DontStarve3",
+  "name": "Don't Starve3",
   "description": "More accessible food.",
   "authors": [
-    "Ginsway",
-    "xiaoleqwq"
+    "Ginsway"
   ],
   "contributors": [
+    "xiaoleqwq",
     "JiuXi1234",
-    "Amarok"
+    "Amarok",
+    "Xing_gong_zi"
   ],
   "contact": {
     "homepage": "https://modrinth.com/mod/dt3",
@@ -20,7 +21,7 @@
   },
 
   "license": "MPL-2.0",
-  "icon": "assets/dontstarve3/textures/icon.png",
+  "icon": "icon.png",
 
   "environment": "*",
   "entrypoints": {

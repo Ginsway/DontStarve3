@@ -1,11 +1,14 @@
 {
   "item.dontstarve3.cheese": "芝士",
-
   "item.dontstarve3.copper_knife": "铜制小刀",
   "item.dontstarve3.gold_knife": "金制小刀",
   "item.dontstarve3.iron_knife": "铁制小刀",
   "item.dontstarve3.diamond_knife": "钻石小刀",
   "item.dontstarve3.netherite_knife": "下界合金小刀",
+  "item.dontstarve3.steamed_carrot": "蒸胡萝卜",
+  "item.dontstarve3.baked_sugar_cane": "烤甘蔗",
+  "itemGroup.dontstarve3.item_group": "不要饿死3",
+  "modmenu.nameTranslation.dontstarve3": "不要饿死3",
+  "modmenu.descriptionTranslation.dontstarve3": "更容易获得的食物。"
 
-  "itemGroup.dontstarve3.item_group": "不要饿死3"
 }
