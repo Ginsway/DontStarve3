@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":  [
+    {
+      "item": "dontstarve3:cheese"
+    },
+    {
+      "item": "dontstarve3:cheese"
+    },
+    {
+      "item": "dontstarve3:cheese"
+    },
+    {
+      "item": "dontstarve3:cheese"
+    },
+    {
+      "item": "dontstarve3:cheese"
+    },
+    {
+      "item": "dontstarve3:cheese"
+    },
+    {
+      "item": "dontstarve3:cheese"
+    },
+    {
+      "item": "dontstarve3:cheese"
+    },
+    {
+      "item": "dontstarve3:cheese"
+    }
+  ],
+
+  "result": {
+    "item": "dontstarve3:cheese_block",
+    "count": 1
+  }
+}

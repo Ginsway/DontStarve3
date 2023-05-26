@@ -1,4 +1,5 @@
 {
+  "block.dontstarve3.cheese_block": "Cheese Block",
   "item.dontstarve3.cheese": "Cheese",
   "item.dontstarve3.copper_knife": "Copper Knife",
   "item.dontstarve3.gold_knife": "Gold Knife",
@@ -7,7 +8,7 @@
   "item.dontstarve3.netherite_knife": "Netherite Knife",
   "item.dontstarve3.steamed_carrot": "Steamed Carrot",
   "item.dontstarve3.baked_sugar_cane": "Baked Sugar Cane",
-  "itemGroup.dontstarve3.item_group": "Don't Starve 3",
-  "modmenu.nameTranslation.dontstarve3": "Don't Starve3",
+  "itemGroup.dontstarve3.item_group": "DontStarve3",
+  "modmenu.nameTranslation.dontstarve3": "DontStarve3",
   "modmenu.descriptionTranslation.dontstarve3": "More accessible food."
 }
