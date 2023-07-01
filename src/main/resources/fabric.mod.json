@@ -26,10 +26,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.ginsway.dontstarve.DontStarve3"
+      "io.github.ginsway.dontstarve.DontStarve3"
     ],
     "fabric-datagen": [
-      "com.ginsway.dontstarve.DataGeneration"
+      "io.github.ginsway.dontstarve.DataGeneration"
     ]
   },
   "mixins": [

@@ -1,8 +1,10 @@
-package com.ginsway.dontstarve;
+package io.github.ginsway.dontstarve;
 
-import com.ginsway.dontstarve.init.BlockInit;
-import com.ginsway.dontstarve.init.ItemInit;
+import io.github.ginsway.dontstarve.init.BlockInit;
+import io.github.ginsway.dontstarve.init.ItemGroupInit;
+import io.github.ginsway.dontstarve.init.ItemInit;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -21,6 +23,7 @@ public class DontStarve3 implements ModInitializer {
 		// Proceed with mild caution.
 		ItemInit.init();
 		BlockInit.init();
+		ItemGroupEvents.modifyEntriesEvent(ItemGroupInit.DONTSTARVE);
 		LOGGER.info("Hello Fabric world!");
 	}
 }

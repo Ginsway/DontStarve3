@@ -1,7 +1,7 @@
-package com.ginsway.dontstarve.init;
+package io.github.ginsway.dontstarve.init;
 
-import com.ginsway.dontstarve.DontStarve3;
-import com.ginsway.dontstarve.item.Knife;
+import io.github.ginsway.dontstarve.DontStarve3;
+import io.github.ginsway.dontstarve.item.Knife;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;

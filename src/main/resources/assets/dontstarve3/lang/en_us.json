@@ -8,7 +8,9 @@
   "item.dontstarve3.netherite_knife": "Netherite Knife",
   "item.dontstarve3.steamed_carrot": "Steamed Carrot",
   "item.dontstarve3.baked_sugar_cane": "Baked Sugar Cane",
-  "itemGroup.dontstarve3.item_group": "DontStarve3",
+  "item.dontstarve3.chocolate": "Chocolate",
+  "block.dontstarve3.chocolate_block": "Chocolate Block",
+  "itemGroup.dontstarve3.group": "DontStarve3",
   "modmenu.nameTranslation.dontstarve3": "DontStarve3",
   "modmenu.descriptionTranslation.dontstarve3": "More accessible food."
 }

@@ -1,6 +1,5 @@
-package com.ginsway.dontstarve.data;
+package io.github.ginsway.dontstarve.data;
 
-import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.item.Item;
@@ -13,7 +12,7 @@ import net.minecraft.registry.Registry;
 
 import java.util.concurrent.CompletableFuture;
 
-import static com.ginsway.dontstarve.init.ItemInit.*;
+import static io.github.ginsway.dontstarve.init.ItemInit.*;
 
 public class TagGenerator extends FabricTagProvider<Item> {
     private static final TagKey<Item> KNIVES = TagKey.of(Registries.ITEM.getKey(), new Identifier("dontstarve3:knives"));

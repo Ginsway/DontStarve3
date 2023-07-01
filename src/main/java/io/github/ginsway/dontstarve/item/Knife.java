@@ -1,4 +1,4 @@
-package com.ginsway.dontstarve.item;
+package io.github.ginsway.dontstarve.item;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;

@@ -1,6 +1,6 @@
-package com.ginsway.dontstarve.mixin;
+package io.github.ginsway.dontstarve.mixin;
 
-import com.ginsway.dontstarve.DontStarve3;
+import io.github.ginsway.dontstarve.DontStarve3;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

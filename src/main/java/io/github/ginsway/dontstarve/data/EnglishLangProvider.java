@@ -1,15 +1,12 @@
-package com.ginsway.dontstarve.data;
+package io.github.ginsway.dontstarve.data;
 
-import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
-import net.minecraft.data.DataOutput;
-import net.minecraft.data.client.Models;
 import net.minecraft.item.Item;
 
 import java.nio.file.Path;
 
-import static com.ginsway.dontstarve.init.ItemInit.*;
+import static io.github.ginsway.dontstarve.init.ItemInit.*;
 
 public class EnglishLangProvider extends FabricLanguageProvider {
     public EnglishLangProvider(FabricDataOutput dataGenerator){

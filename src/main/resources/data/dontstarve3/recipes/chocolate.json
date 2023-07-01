@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":  [
+    {
+      "item": "dontstarve3:chocolate_block"
+    },
+    {
+      "tag": "dontstarve3:knives"
+    }
+  ],
+
+  "result": {
+    "item": "dontstarve3:chocolate",
+    "count": 4
+  }
+}
