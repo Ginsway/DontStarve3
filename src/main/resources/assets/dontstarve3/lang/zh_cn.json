@@ -8,8 +8,10 @@
   "item.dontstarve3.netherite_knife": "下界合金小刀",
   "item.dontstarve3.steamed_carrot": "蒸胡萝卜",
   "item.dontstarve3.baked_sugar_cane": "烤甘蔗",
+  "item.dontstarve3.chocolate": "巧克力",
+  "block.dontstarve3.chocolate_block": "巧克力块",
   "itemGroup.dontstarve3.group": "不要饿死3",
-  "modmenu.nameTranslation.dontstarve3": "不要饿死3",
-  "modmenu.descriptionTranslation.dontstarve3": "更容易获得的食物。"
+  "modmenu.nameTranslation.dontstarve3": "不要饿死3 Fabric版",
+  "modmenu.descriptionTranslation.dontstarve3": "更容易获得的食物。",
 
 }

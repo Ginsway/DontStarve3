@@ -12,7 +12,7 @@ public class DontStarve3 implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
-	public static final Logger LOGGER = LoggerFactory.getLogger("dontstarve3");//定义崩溃记录器的MODID
+	public static final Logger LOGGER = LoggerFactory.getLogger("Dontstarve3");//定义崩溃记录器的MODID
 
 	public static final String MOD_ID = "dontstarve3" ;
 
@@ -24,6 +24,6 @@ public class DontStarve3 implements ModInitializer {
 		ItemInit.init();
 		BlockInit.init();
 		ItemGroupEvents.modifyEntriesEvent(ItemGroupInit.DONTSTARVE);
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Dontstarve3 Loaded!");
 	}
 }

@@ -12,16 +12,16 @@ public class ItemGroupInit {
     public static final ItemGroup DONTSTARVE = FabricItemGroup.builder(new Identifier(DontStarve3.MOD_ID, "group"))
             .icon(() -> new ItemStack((ItemInit.CHEESE)))
             .entries((enabledFeatures, entries)-> {
-                entries.add(new ItemStack(ItemInit.CHEESE));
-                entries.add(new ItemStack(COPPER_KNIFE));
-                entries.add(new ItemStack(IRON_KNIFE));
-                entries.add(new ItemStack(GOLD_KNIFE));
-                entries.add(new ItemStack(DIAMOND_KNIFE));
-                entries.add(new ItemStack(NETHERITE_KNIFE));
-                entries.add(new ItemStack(CHOCOLATE));
-                entries.add(new ItemStack(CHOCOLATE_BLOCK));
-                entries.add(new ItemStack(CHEESE_BLOCK));
-                entries.add(new ItemStack(CHEESE_STICK));
+//                entries.add(new ItemStack(ItemInit.CHEESE));
+//                entries.add(new ItemStack(COPPER_KNIFE));
+//                entries.add(new ItemStack(IRON_KNIFE));
+//                entries.add(new ItemStack(GOLD_KNIFE));
+//                entries.add(new ItemStack(DIAMOND_KNIFE));
+//                entries.add(new ItemStack(NETHERITE_KNIFE));
+//                entries.add(new ItemStack(CHOCOLATE));
+//                entries.add(new ItemStack(CHOCOLATE_BLOCK));
+//                entries.add(new ItemStack(CHEESE_BLOCK));
+//                entries.add(new ItemStack(CHEESE_STICK));
             }
     ).build();
 
